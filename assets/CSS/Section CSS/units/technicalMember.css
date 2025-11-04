@@ -25,6 +25,10 @@ body {
   scroll-behavior: smooth;
 }
 
+html, body {
+  overflow-x: hidden; 
+  width: 100%;
+}
 a {
   text-decoration: none;
   color: inherit;
@@ -111,18 +115,6 @@ a {
 }
 
 @media (max-width: 768px) {
-  .nav-wrapper {
-    min-height: 70px;
-  }
-
-  .logo img {
-    height: 45px;
-  }
-
-  .logo-text {
-    font-size: 1rem;
-  }
-
   .content-wrapper-main {
     padding: 20px;
   }
@@ -286,39 +278,8 @@ a {
         font-size: 1rem;
     }
 
-    .footer-grid {
-        grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
-        text-align: center;
-    }
 
-    .footre-logo {
-        grid-column: 1 / -1; 
-    }
 
-    .footre-logo .image-foot {
-        justify-content: center;
-    }
-    
-    .footer-title {
-        border-right: none;
-        padding-right: 0;
-        text-align: center;
-    }
-
-    .contact-item {
-        justify-content: center;
-        text-align: right;
-    }
-
-    .footer-bottom-bar {
-        justify-content: center;
-        text-align: center;
-        flex-direction: column-reverse; 
-    }
-
-    .social-icons {
-        margin-bottom: 15px;
-    }
     
     .page-title {
         font-size: 1.8rem;
