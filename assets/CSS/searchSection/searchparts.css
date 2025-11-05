@@ -34,14 +34,6 @@ a {
   transition: color var(--transition-speed);
 }
 
-.container {
-  width: 90%;
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 40px 0;
-}
-
-
 /* Page Title Style */
 .page-title {
   font-size: 2.5rem;
@@ -51,6 +43,7 @@ a {
   font-weight: 700;
   position: relative;
   padding-bottom: 15px;
+  margin-top: 50px;
 }
 
 .page-title::after {
@@ -300,6 +293,9 @@ a {
 }
 
 /* مؤتمر علمي */
+.department-conferences{
+  margin-bottom: 50px;
+}
 .department-list {
   list-style: none;
   padding: 0;
